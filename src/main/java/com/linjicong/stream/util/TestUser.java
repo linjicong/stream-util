@@ -10,9 +10,9 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class TestUser {
-    private String name;
+    private String username;
     private Long deptId;
     private Double score;
     private Integer winningCount;
-    private Long number;
+    private Long count;
 }
